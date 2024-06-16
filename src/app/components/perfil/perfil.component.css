@@ -1,0 +1,44 @@
+.profile-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.bio, .projects, .technical-skills, .social-media {
+  margin-bottom: 30px;
+}
+
+.bio h2, .projects h2, .technical-skills h2, .social-media h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.bio p, .projects p, .technical-skills li, .social-media p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+.projects .project {
+  margin-bottom: 20px;
+}
+
+.projects .project a {
+  color: #007bff;
+}
+
+.technical-skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
